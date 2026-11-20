@@ -44,6 +44,49 @@ This project analyzes retail sales data to identify sales trends, profitability,
 - Corrected postal code and discount data types.
 - Preserved negative profit values for analysis.
 
+## Data Modelling and DAX
+
+A star schema was developed in Power BI to support efficient data analysis and reporting.
+
+### Data Model
+- FactSales
+- DimCustomer
+- DimProduct
+- DimGeography
+- DimDate
+
+### DAX Measures
+- Total Revenue
+- Total Profit
+- Total Orders
+- Total Quantity
+- Profit Margin
+- Average Order Value
+- Total Customers
+- Year-to-Date Revenue
+- Year-over-Year Growth
+
+### Data Validation
+
+Power BI calculations were validated against SQL Server results.
+
+| KPI | Result |
+|---|---:|
+| Total Revenue | $2,297,200.86 |
+| Total Profit | $286,397.02 |
+| Total Orders | 5,009 |
+| Total Quantity | 37,873 |
+| Profit Margin | 12.47% |
+| Average Order Value | $458.61 |
+| Total Customers | 793 |
+
+### Star Schema
+![Star Schema](Screenshots/Star_Schema.png)
+
+### DAX Validation
+![DAX Validation](Screenshots/DAX_Validation.png)
+
+
 ## Project Progress
 
 - [x] Define business objectives
@@ -52,8 +95,8 @@ This project analyzes retail sales data to identify sales trends, profitability,
 - [x] Data quality inspection
 - [x] Data cleaning and preparation
 - [x] SQL analysis
-- [ ] Dimensional data modelling
-- [ ] DAX calculations
+- [x] Dimensional data modelling
+- [x] DAX calculations
 - [ ] Dashboard development
 - [ ] Business insights and recommendations
 
