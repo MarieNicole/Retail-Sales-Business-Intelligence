@@ -51,7 +51,7 @@ This project analyzes retail sales data to identify sales trends, profitability,
 - [x] Explore dataset
 - [x] Data quality inspection
 - [x] Data cleaning and preparation
-- [ ] SQL analysis
+- [x] SQL analysis
 - [ ] Dimensional data modelling
 - [ ] DAX calculations
 - [ ] Dashboard development
